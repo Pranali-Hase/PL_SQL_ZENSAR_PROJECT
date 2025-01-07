@@ -9,12 +9,19 @@ Here's a breakdown of the system's key features and components:
 
 
 ##key task:-
+
 #Inventory Management: Tracks items' details and recommends restocking when stock falls below a threshold.
+
 #Order Management: Manages customer orders and stores items and quantities in the order_items table.
+
 #Stock Updates: Automatically updates stock levels after orders, cancellations, or restocks using triggers and functions.
+
 #Stock Availability Check: Ensures sufficient stock is available before placing an order.
+
 #Trigger for Order Insertion: Updates stock levels when new order items are inserted.
+
 #Trigger for Order Cancellation: Restores stock levels when an order is canceled.
+
 #Restocking Recommendations: Generates a report for items that need restocking based on stock levels and thresholds.
 
 
